@@ -73,7 +73,7 @@ class FeedConn:
 
     """
 
-    protocol = "5.2"
+    protocol = "5.1.1.0" #"5.2"
     host = os.environ['IQFEED_HOST'] or "127.0.0.1"
     quote_port = int(os.environ['IQFEED_PORT_QUOTE']) or 5009
     lookup_port = int(os.environ['IQFEED_PORT_LOOKUP']) or 9100
